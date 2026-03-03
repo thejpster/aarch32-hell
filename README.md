@@ -1,6 +1,6 @@
 # Oh no, more AArch32
 
-Here is a simple example using naked functions. It doesn't work.
+Here is a simple example using naked functions. It ~~doesn't~~ didn't work, but as of https://github.com/llvm/llvm-project/pull/181156 it does, fixing https://github.com/llvm/llvm-project/issues/180358. Tests were added in https://github.com/rust-lang/rust/pull/153153.
 
 ## ARMv4
 
